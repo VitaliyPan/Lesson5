@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+
+
+body{
+	font-family: "Roboto", arial, sans-serif;
+	color: rgb(94, 94, 94);
+	font-size: 18px;
+	background-color: rgb(212, 212, 190);
+}
+
+.header{
+	background-color:rgb(100, 26, 26);
+	padding: 10px 0 20px 0;	
+}
+.header-wrapper,
+.main-wrapper,
+.footer-wrapper {
+	width: 1280px;
+	margin: 0 auto;
+}
+.header-title{
+	margin-bottom: -40px;
+}
+.header-title p{
+	color: rgb(255, 255, 255);
+	text-align: center;
+	white-space: pre-line;
+	word-spacing: 15px;	
+}
+.header-logo {
+}
+.heder-link {
+}
+.heder-tel {
+	margin-left: 970px;
+	color: rgb(255, 255, 255);
+	font-weight: 700;	
+	font-size: 24px;
+}
+/* ============================================================================================== */
+.main {
+}
+.menu {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.menu-link {
+	color: rgb(21, 21, 21);
+	padding-right: 22px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	line-height: 24px;
+}
+.main-img{
+	margin-bottom: 50px;
+}
+.main-img img{
+	width: 100%;	
+}
+.main-house{
+	width: 50%;
+	margin-left: 650px;
+	text-align: center;
+	color: black;
+	text-shadow: 1px 1px 2px brown;
+	font-weight: 700;	
+}
+.main-house p{
+	margin-top: 150px;
+}
+.main-house span{
+   text-decoration: underline;
+	font-style: oblique;
+	color: rgb(148, 11, 11);
+	text-transform: uppercase;
+	line-height: 1;
+	font-size: 24px;
+}
+.house-img{
+	margin-top: -200px;
+}
+.house-img img{
+	width: 50%;
+}
+.house-menu {
+	margin-top: 50px;
+}
+.house-title {
+	margin: 30px 0px;
+	text-align: center;
+	word-spacing: 300px;
+	font-size: 24px;
+	line-height: 1.25;
+	color: black;
+	font-style: italic;
+	font-weight: 900;
+	background-color: rgba(109, 6, 6, 0.322);
+}
+.house-menu img{
+	width: 33%;
+	padding-right: 20px;	
+}
+.house-benefits {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	color: black;
+	font-size: 20px;
+	text-align: justify;
+}
+.eco-house {
+	text-indent: 50px;
+	padding-bottom: 20px;
+}
+.house-benefits p{
+	text-indent: 50px;
+}
+.eco-house span{
+	text-decoration: underline;
+	font-style: oblique;
+	text-transform: uppercase;
+	line-height: 1;
+	font-size: 24px;
+	font-weight: 700;
+}
+.house-list li{
+	padding-left: 30px;
+	padding-bottom: 10px;
+	text-indent: 20px;
+}
+.main-contact {
+	width: 50%;
+	font-family: 'Montserrat', sans-serif;
+	padding-bottom: 50px;
+}
+.main-contact h1{	
+	font-weight: 600;
+	line-height: 1.4;
+	color: rgb(89, 74, 66);
+	font-size: 38px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+.main-contact h2{
+	font-size: 24px;
+	line-height: 1.25;
+	color: rgb(27, 27, 27);
+	text-transform: capitalize;
+	margin-bottom: 10px;
+}
+.main-contact ul,
+.main-contact p{
+	margin-bottom: 30px;
+	line-height: 1.5;
+	color: rgb(94, 94, 94);
+}
+.main-contact ul a{
+	font-weight: 700;	
+}
+.contact-button{
+	text-align: center;
+	margin-top: 100px;
+}
+.contact-main{
+	background-color: rgb(89, 74, 66);
+	padding: 20px 30px;
+	color: rgb(255, 255, 255);	
+}
+.contact-house{
+	width: 50%;
+	padding-left: 640px;
+	margin-top: -400px;
+}
+/* ================================================================================================= */
+.footer {
+	text-align: center;
+	padding-bottom: 70px;
+}
+.footer-title {
+	font-size: 48px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+	line-height: 1.4;
+	color: rgb(89, 74, 66);
+	padding: 20px 0px;
+	background-color: rgba(109, 6, 6, 0.322);
+}
+.footer img{
+	padding: 20px 0;
+	width: 100px;
+}
+.footer p{
+	letter-spacing: 3px;
+	color: black ;
+	font-weight: 700;
+}
+.footer span{
+	text-decoration: underline;
+	text-shadow: 2px 2px 2px rgb(139, 22, 22);
+}
